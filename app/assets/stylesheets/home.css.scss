@@ -1,3 +1,15 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#section_a {
+  @include column(6);
+  color: lightgrey;
+  background-color: grey;
+}
+
+#section_b {
+  @include column(6);
+  background-color: lightgrey;
+  color: grey;
+}
