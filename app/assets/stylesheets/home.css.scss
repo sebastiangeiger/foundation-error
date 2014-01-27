@@ -4,12 +4,14 @@
 
 #section_a {
   @include pinkborder;
+  @include grid-column(6);
   color: lightgrey;
   background-color: grey;
 }
 
 #section_b {
   @include pinkborder;
+  @include grid-column(6);
   background-color: lightgrey;
   color: grey;
 }
