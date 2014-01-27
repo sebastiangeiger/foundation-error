@@ -3,13 +3,13 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #section_a {
-  @include column(6);
+  @include pinkborder;
   color: lightgrey;
   background-color: grey;
 }
 
 #section_b {
-  @include column(6);
+  @include pinkborder;
   background-color: lightgrey;
   color: grey;
 }
